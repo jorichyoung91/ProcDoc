@@ -138,6 +138,7 @@ You can experiment with these in the **`/procdoc`** panel. Changes are saved aut
 ### Additional Notes
 - The list includes both classic procs and custom procs unique to Turtle WoW.
 - New procs and alerts can easily be added by modifying the configuration in the `PROC_DATA` and `ACTION_PROCS` tables in the code. That, or hit me up and I can add it to the main addon!
+- This version of the addon is a fork from npfs666 to include the new procs for marksman and beast mastery hunter.
 
 
 ---

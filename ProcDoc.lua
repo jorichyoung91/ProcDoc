@@ -189,6 +189,30 @@ local PROC_DATA = {
             alertTexturePath = "Interface\\AddOns\\ProcDoc\\img\\HunterQuickShots.tga",
             alertStyle       = "SIDES",
         },
+        {
+            buffName        = "Lock and Load",
+            texture         = "Interface\\Icons\\ability_hunter_lockandload",
+            alertTexturePath= "Interface\\AddOns\\ProcDoc\\img\\HunterCounterattack.tga",
+            alertStyle      = "TOP",
+        },
+        {
+            buffName        = "Explosive Ammunition",
+            texture         = "Interface\\Icons\\Ability_SearingArrow",
+            alertTexturePath= "Interface\\AddOns\\ProcDoc\\img\\WarriorCounterattack.tga",
+            alertStyle      = "SIDES2",
+        },
+        {
+            buffName        = "Poisonous Ammunition",
+            texture         = "Interface\\Icons\\Ability_PoisonArrow",
+            alertTexturePath= "Interface\\AddOns\\ProcDoc\\img\\DruidNaturesGrace.tga",
+            alertStyle      = "SIDES2",
+        },
+        {
+            buffName        = "Enchanted Ammunition",
+            texture         = "Interface\\Icons\\Ability_TheBlackArrow",
+            alertTexturePath= "Interface\\AddOns\\ProcDoc\\img\\MageTemporalConvergence.tga",
+            alertStyle      = "SIDES2",
+        }
     },
     ["WARRIOR"] = {
         {
@@ -319,11 +343,11 @@ local ACTION_PROCS = {
             spellName       = "Lacerate"
         },
         {
-            buffName        = "Baited Shot",
-            texture         = "Interface\\Icons\\Inv_Misc_Food_66",
+            buffName        = "Kill Command",
+            texture         = "Interface\\Icons\\ability_hunter_killcommand",
             alertTexturePath= "Interface\\AddOns\\ProcDoc\\img\\HunterBaitedShot.tga",
             alertStyle      = "TOP",
-            spellName       = "Baited Shot"
+            spellName       = "Kill Command"
         }
     },
     ["PALADIN"] = {
